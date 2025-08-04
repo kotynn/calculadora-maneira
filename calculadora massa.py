@@ -115,6 +115,10 @@ while True:
     except Exception as erro:
         print(f'Ocorreu um erro inesperado :( : {erro}')
 
+
+    except ZeroDivisionError:
+        print('0 N DA OTARIO')
     
-    print('Aguarde...')
-    time.sleep(3)
+    
+        print('Aguarde...')
+        time.sleep(3)
